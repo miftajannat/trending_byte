@@ -34,12 +34,12 @@ const Pricing = () => {
  
 
 
-    <div className="grid grid-cols-3 gap-4 ">
+    <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-8 ">
       {/* map */}
       {pricing.map((price) => (
         <div>
           <div key={price.id}>
-            <div className="box-border border-1 border-gray-600 rounded-xl bg-gray-800 sm:mx-6 md:">
+            <div className="box-border border-1 border-gray-600 rounded-xl  bg-gray-800">
               <div className="p-5">
                 <div className="flex flex-col">
                   <p className="justify justify-between flex">

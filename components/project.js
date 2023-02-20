@@ -36,7 +36,7 @@ const Project = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
           {projects.map((project) => (
             <>
               <a href="#">

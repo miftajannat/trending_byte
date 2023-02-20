@@ -27,7 +27,7 @@ const Services = () => {
     <>
 
 <section class="pt-20 overflow-hidden">
-      <div class="container mx-auto">
+      <div class="container md:mx-auto">
         <div class="md:max-w-lg mx-auto text-center mb-8">
           <h2 class="mb-4 font-heading font-semibold text-blue-500 text-6xl sm:text-7xl">
             Our Services
@@ -38,7 +38,7 @@ const Services = () => {
 
 
         {/* <div className="grid grid-cols-1  md:grid-cols-2 py-2 gap-16 pb-20"> */}
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10 bg-gray-800 box-border border-1 border-gray-600 rounded-lg p-16">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10 bg-gray-800 box-border border-1 border-gray-600 rounded-lg p-16 ">
           {services.map((service) => (
             <>
               <div key={service.id}>

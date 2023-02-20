@@ -29,11 +29,11 @@ const PopularTag = () => {
         <h2 class="mb-4 font-heading font-semibold text-blue-500 text-6xl sm:text-7xl">Popular Tag</h2>
         </div>
 
-        <div className="grid md:grid-cols-6 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-6  gap-6">
           {tags.map((tag) => (
             <div key={tag.id}>
-            <div className="bg-gray-800 rounded-xl box-border border-2 border-gray-700 hover:border-blue-600 hover: shadow-lg hover:shadow-blue-500/50 hover:scale-110 transition ease-out duration-500">
-              <div className="flex  px-4">
+            <div className="bg-gray-800 rounded-xl box-border border-2 border-gray-700 hover:border-blue-600 hover: shadow-lg hover:shadow-blue-500/50 hover:scale-110 transition ease-out duration-500 w-[140px]">
+              <div className="flex  px-6">
                 <p className="py-4">
                 <img className="w-8 h-8 rounded-full"
                   src={
