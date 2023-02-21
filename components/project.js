@@ -42,15 +42,15 @@ const Project = () => {
               <a href="#">
                 <div class="group flex flex-col justify-end h-full relative overflow-hidden">
                   <img
-                    class="mx-auto w-[300px] h-[300px] transform group-hover:scale-110 transition ease-out duration-500 box-border rounded-lg"
+                    class="mx-auto md:w-[300px] w-auto h-[300px] transform group-hover:scale-110 transition ease-out duration-500 box-border rounded-lg"
                     src={
                       "http://localhost:1337" +
                       project.ProjectImage.data.attributes.url
                     }
                     alt="cccc"
                   />
-                  <div class="absolute bottom-0 left-0 w-full p-2">
-                    <div class="p-5 w-full rounded-md">
+                  <div class="absolute bottom-0  p-2">
+                    <div class="md:p-5 p-3 rounded-md ">
                       <h2 class="mb-2  font-bold text-2xl uppercase text-gray-100 tracking-px">
                         {project.ProjectTitle}
                       </h2>

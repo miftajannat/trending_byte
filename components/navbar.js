@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import image from "../public/images/signature.svg";
+
 import img from "../public/media/trendingbyte.jpg"
+import navmenu from "../public/media/navmenu.svg"
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -24,10 +25,10 @@ function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src={img} width={20} height={30} alt='logo' />
+                    <Image src={navmenu} width={20} height={30} alt='logo' />
                   ) : (
                     <Image
-                      src={img}
+                      src={navmenu}
                       width={20}
                       height={20}
                       alt='logo'

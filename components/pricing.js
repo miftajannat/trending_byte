@@ -48,10 +48,10 @@ const Pricing = () => {
                   </h1>
                   {/* <button className="bg-green-600 rounded-full px-2">Premium</button> */}
                   </p>
-                  <p className="text-xl text-gray-400 py-5">
+                  <p className=" text-gray-400 py-5">
                     {price.PricingDescription1}
                   </p>
-                  <p className="text-gray-400">{price.PricingDescription1}</p>
+                  <p className="text-gray-400">{price.PricingDescription2}</p>
                   <div className="py-4 ">
                     <button className="rounded-full box-border border-2 px-4 border-blue-500 text-white text-bold p-1 hover:bg-blue-500">
                       Get Started
